@@ -41,6 +41,11 @@ android {
 
 dependencies {
 
+    // Retrofit2 라이브러리
+    implementation("com.squareup.retrofit2:retrofit:2.9.0")
+    // Gson converter 라이브러리
+    implementation("com.squareup.retrofit2:converter-gson:2.9.0")
+
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.lifecycle.runtime.ktx)
     implementation(libs.androidx.activity.compose)
